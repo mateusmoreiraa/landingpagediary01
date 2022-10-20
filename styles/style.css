@@ -80,7 +80,7 @@ div#techniques > p {
 
 div#techniques > div#imagemama {
     background: #000000 url(../imgens/amansamento.jpg) no-repeat;
-    height: 300px;
+    height: 250px;
     width: 60vw;
     border-radius: 50%;
     background-position: left center;
@@ -91,7 +91,7 @@ div#techniques > div#imagemama {
 }
 div#techniques > div#imagemsal {
     background: #000000 url(../imgens/saltovertical.jpg) no-repeat;
-    height: 300px;
+    height: 250px;
     width: 60vw;
     border-radius: 50%;
     background-position: center center;
@@ -102,7 +102,7 @@ div#techniques > div#imagemsal {
 }
 div#techniques > div#imagemvoo {
     background: #000000 url(../imgens/vooaopunho.jpg) no-repeat;
-    height: 300px;
+    height: 250px;
     width: 60vw;
     border-radius: 50%;
     background-position: center center;
