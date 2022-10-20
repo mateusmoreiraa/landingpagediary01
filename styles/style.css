@@ -1,0 +1,124 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Boogaloo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Island+Moments&display=swap');
+
+:root{
+    --colorprimary: #9E4E1D;
+    --colorsecondary: #EB742A;
+    --colortertiary: #5E2F11;
+    --colormediumligth: #AB541F;
+    --colormediumdark: #854218;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: var(--colorprimary);
+}
+
+header {
+    border-bottom: 1px solid rgb(255, 255, 255) ;
+    width: 98vw;
+    margin: auto;
+    background-color: #000000;
+}
+
+header > h1 {
+    text-align: center;
+    font-family: 'Boogaloo';
+    font-size: 1.3em;
+    border-bottom: 1px solid var(--colorsecondary);
+    color: var(--colorsecondary);
+    background-color: black;
+}
+
+div#modern-times > h2 {
+    color: white;
+    text-shadow: 1px 1px 3px rgba(255, 255, 255, 0.274);
+    width: 80vw;
+    text-align: center;
+    margin: 20px auto;
+    font-family: 'Comfortaa';
+    font-size: 1.8em;
+    margin: 30px auto;
+
+}
+
+div#modern-times > h2 > span#falconry {
+    font-family: 'Island Moments';
+    font-size: 3em;
+    text-shadow: 2px 2px 9px var(--colorsecondary);
+    color: white;
+}
+
+div#techniques-explanation{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 90vw;
+}
+
+div#techniques {
+    width: 80vw;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+div#techniques > p {
+    text-align: center;
+    font-family: 'Comfortaa';
+    padding: 30px;
+    width: 280px;
+    margin: auto;
+    text-shadow:  2px 2px 9px rgba(0, 0, 0, 0.479);
+}
+
+div#techniques > div#imagemama {
+    background: #000000 url(../imgens/amansamento.jpg) no-repeat;
+    height: 300px;
+    width: 60vw;
+    border-radius: 50%;
+    background-position: left center;
+    background-size: cover;
+    margin: auto;
+    margin-top: 30px;
+    box-shadow: 2px 2px 9px rgba(0, 0, 0, 0.479);
+}
+div#techniques > div#imagemsal {
+    background: #000000 url(../imgens/saltovertical.jpg) no-repeat;
+    height: 300px;
+    width: 60vw;
+    border-radius: 50%;
+    background-position: center center;
+    background-size: cover;
+    margin: auto;
+    margin-top: 30px;
+    box-shadow: 2px 2px 9px rgba(0, 0, 0, 0.479);
+}
+div#techniques > div#imagemvoo {
+    background: #000000 url(../imgens/vooaopunho.jpg) no-repeat;
+    height: 300px;
+    width: 60vw;
+    border-radius: 50%;
+    background-position: center center;
+    background-size: cover;
+    margin: auto;
+    margin-top: 30px;
+    box-shadow: 2px 2px 9px rgba(0, 0, 0, 0.479);
+}
+
+div#explanation{
+    background-color: #000000;
+    width: 98vw;
+    height: 30vh;
+    color: white;
+}
+
+
+
+
+
