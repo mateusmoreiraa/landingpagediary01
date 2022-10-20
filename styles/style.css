@@ -14,15 +14,17 @@
 *{
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
 }
 
 body {
     background-color: var(--colorprimary);
+    width: 96.7vw
 }
 
 header {
     border-bottom: 1px solid rgb(255, 255, 255) ;
-    width: 98vw;
+    width: 96.7vw;
     margin: auto;
     background-color: #000000;
 }
@@ -43,14 +45,14 @@ div#modern-times > h2 {
     text-align: center;
     margin: 20px auto;
     font-family: 'Comfortaa';
-    font-size: 1.8em;
+    font-size: 1.4em;
     margin: 30px auto;
 
 }
 
 div#modern-times > h2 > span#falconry {
     font-family: 'Island Moments';
-    font-size: 3em;
+    font-size: 3.5em;
     text-shadow: 2px 2px 9px var(--colorsecondary);
     color: white;
 }
@@ -59,7 +61,8 @@ div#techniques-explanation{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    width: 90vw;
+    width: 96.7vw;
+    background: linear-gradient(var(--colorsecondary), var(--colorprimary), var(--colorsecondary));
 }
 
 div#techniques {
@@ -113,12 +116,107 @@ div#techniques > div#imagemvoo {
 
 div#explanation{
     background-color: #000000;
-    width: 98vw;
-    height: 30vh;
+    width: 96.7vw;
+    height: 20vh;
     color: white;
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    border-bottom: 1px solid rgb(255, 255, 255) ;
+    border-top: 1px solid rgb(255, 255, 255) ;
+
 }
 
+div#explanation > p{
+    padding: 10px;
+    width: 60vw;
+    margin: auto;
+    font-family: 'Comfortaa';
+    text-align: center;
+    line-height: 1.5em;
+    
+}
+
+section#benefits-form {
+    font-family: 'Comfortaa';
+}
+
+section#benefits-form > div#benefits {
+    padding: 20px;    
+    background: linear-gradient(var(--colorsecondary), var(--colorprimary), var(--colorsecondary));
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 96.7vw;
+}
+
+div#benefits > p {
+    width: 60vw;
+    margin-bottom: 30px;
+    line-height: 1.5em;
+    text-align: justify;
+
+}
+
+div#benefits > ul {
+    margin-bottom: 20px;
+}
+div#benefits > ul > li{
+    margin-bottom: 10px;
+}
+
+div#form {
+    width: 96.7vw;
+    background-color: #000000;
+    border-bottom: 1px solid rgb(255, 255, 255) ;
+    border-top: 1px solid rgb(255, 255, 255) ;
+}
+
+div#form > p{
+    color: white;
+    width: 80vw;
+    margin: auto;
+    padding: 30px;
+    line-height: 1.5em;
+    margin-bottom: 20px;
+}
+
+div#form > form {
+    display: flex;
+    flex-direction: column;
+    width: 60vw;
+    margin: auto;
+    margin-bottom: 20px;
+    border: 1px solid white;
+    align-content: center;
+    gap: 20px;
+    column-gap: 20px;
+    border-radius: 20px;
 
 
+}
 
+form > input {
+    height: 40px;
+    width: 40vw;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid var(--colorsecondary);
+    margin: auto;
+    text-align: center;    
 
+}
+
+input#submit {
+    background-color: var(--colorsecondary);
+    color: white;
+    border-radius: 20px;
+    margin-bottom: 20px;
+
+}
+
+footer {
+    text-align: center;
+    background-color: var(--colorsecondary);
+}
