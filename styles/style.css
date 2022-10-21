@@ -119,7 +119,7 @@ div#techniques > div#imagemvoo {
 
 div#explanation{
     background-color: var(--colorsecondary);
-    height: 20vh;
+    height: 40vh;
     color: white;
     display: flex;
     align-content: center;
