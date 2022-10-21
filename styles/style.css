@@ -71,6 +71,7 @@ div#benefits > p {
     margin-bottom: 30px;
     line-height: 1.5em;
     text-align: justify;
+    text-indent: 30px;
 
 }
 
@@ -136,12 +137,13 @@ div#others > p {
     margin-bottom: 30px;
     line-height: 1.5em;
     text-align: justify;
+    text-indent: 30px;
 
 }
 
 div#form {
-    background-color: #000000;
-    border-top: 1px solid var(--colorsecondary) ;
+    background-color: var(--colortertiary);
+    border-top: 1px solid white;
 
 }
 
@@ -157,12 +159,13 @@ div#form > p{
 }
 
 div#form > form {
+    background-color: black;
     display: flex;
     flex-direction: column;
     width: 60vw;
     margin: auto;
     margin-bottom: 30px;
-    border: 1px solid white;
+    border: 1px solid var(--colorsecondary);
     align-content: center;
     gap: 20px;
     column-gap: 20px;
