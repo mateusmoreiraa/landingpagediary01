@@ -66,7 +66,7 @@ section#introduction > div#benefits {
 }
 
 div#benefits > p {
-    width: 60vw;
+    width: 80vw;
     margin-top: 20px;
     margin-bottom: 30px;
     line-height: 1.5em;
@@ -130,7 +130,7 @@ div#others > h2 {
 }
 
 div#others > p {
-    width: 60vw;
+    width: 80vw;
     margin: auto;
     margin-top: 20px;
     margin-bottom: 30px;
