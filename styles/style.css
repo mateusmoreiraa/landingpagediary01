@@ -28,13 +28,12 @@ header {
     background-color: var(--colorsecondary);
 }
 
-header > h1 {
-    text-align: center;
-    font-family: 'Boogaloo';
-    font-size: 1.3em;
+header > div#topo {
+    height: 30px;
     border-bottom: 1px solid var(--colorsecondary);
     color: var(--colorsecondary);
     background-color: black;
+    border-bottom: 1px solid rgb(255, 255, 255) ;
 }
 
 div#modern-times > h2 {
@@ -56,106 +55,25 @@ div#modern-times > h2 > span#falconry {
     color: black;
 }
 
-div#techniques-explanation{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    background: linear-gradient(rgba(0, 0, 0, 0.486), rgba(0, 0, 0, 0.466)), url(../imgens/aguia.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-}
-
-div#techniques {
-    width: 80vw;
-    margin: auto;
-    margin-bottom: 20px;
-}
-
-div#techniques > p {
-    text-align: center;
-    font-family: 'Comfortaa';
-    padding: 30px;
-    width: 280px;
-    margin: auto;
-    text-shadow:  2px 2px 9px rgba(0, 0, 0, 0.479);
-    color: white;
-}
-
-div#techniques > div#imagemama {
-    background: #000000 url(../imgens/amansamento.jpg) no-repeat;
-    height: 250px;
-    width: 60vw;
-    border-radius: 50%;
-    background-position: left center;
-    background-size: cover;
-    margin: auto;
-    margin-top: 30px;
-    box-shadow: 2px 2px 9px rgba(0, 0, 0, 0.479);
-}
-div#techniques > div#imagemsal {
-    background: #000000 url(../imgens/saltovertical.jpg) no-repeat;
-    height: 250px;
-    width: 60vw;
-    border-radius: 50%;
-    background-position: center center;
-    background-size: cover;
-    margin: auto;
-    margin-top: 30px;
-    box-shadow: 2px 2px 9px rgba(0, 0, 0, 0.479);
-}
-div#techniques > div#imagemvoo {
-    background: #000000 url(../imgens/vooaopunho.jpg) no-repeat;
-    height: 250px;
-    width: 60vw;
-    border-radius: 50%;
-    background-position: center center;
-    background-size: cover;
-    margin: auto;
-    margin-top: 30px;
-    box-shadow: 2px 2px 9px rgba(0, 0, 0, 0.479);
-}
-
-div#explanation{
-    background-color: var(--colorsecondary);
-    height: 40vh;
-    color: white;
-    display: flex;
-    align-content: center;
-    flex-direction: column;
-    border-bottom: 1px solid rgb(255, 255, 255) ;
-    border-top: 1px solid rgb(255, 255, 255) ;
-
-}
-
-div#explanation > p{
-    padding: 10px;
-    width: 60vw;
-    margin: auto;
-    font-family: 'Comfortaa';
-    text-align: center;
-    line-height: 1.5em;
-    
-}
-
-section#benefits-form {
+section#introduction {
     font-family: 'Comfortaa';
 }
 
-section#benefits-form > div#benefits {
+section#introduction > div#benefits {
     padding: 20px;    
-    background: linear-gradient(rgba(0, 0, 0, 0.500), rgba(0, 0, 0, 0.500)), url(../imgens/coruja.jpg);
-    background-attachment: fixed;
+    background: linear-gradient(rgba(0, 0, 0, 0.800), rgba(0, 0, 0, 0.800)), url(../imgens/coruja.jpg);
+    background-position: center center;
     background-size: cover;
     display: flex;
     flex-direction: column;
     align-items: center;
     color: white;
+    border-bottom: 1px solid var(--colorsecondary) ;
 }
 
 div#benefits > p {
     width: 60vw;
+    margin-top: 20px;
     margin-bottom: 30px;
     line-height: 1.5em;
     text-align: justify;
@@ -169,10 +87,68 @@ div#benefits > ul > li{
     margin-bottom: 10px;
 }
 
+section#skills{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: var(--colortertiary);
+    
+
+}
+
+div#techniques {
+    margin: auto;
+    margin-bottom: 20px;
+
+}
+
+div#techniques > p {
+    text-align: center;
+    font-family: 'Comfortaa';
+    padding: 30px;
+    width: 280px;
+    margin: auto;
+    text-shadow:  2px 2px 7px rgb(0, 0, 0);
+    color: white;
+}
+
+section#others-form {    
+    background: linear-gradient(rgba(0, 0, 0, 0.800), rgba(0, 0, 0, 0.800)), url(../imgens/aguia.jpg);
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    border-top: 1px solid var(--colorsecondary) ;
+
+}
+
+div#others {
+    color: white;
+
+}
+
+div#others > h2 {
+    padding: 20px;
+    margin: auto;
+
+}
+
+div#others > p {
+    width: 60vw;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    line-height: 1.5em;
+    text-align: justify;
+
+}
+
 div#form {
     background-color: #000000;
-    border-bottom: 1px solid rgb(255, 255, 255) ;
-    border-top: 1px solid rgb(255, 255, 255) ;
+    border-top: 1px solid var(--colorsecondary) ;
+
 }
 
 div#form > p{
@@ -182,6 +158,8 @@ div#form > p{
     padding: 30px;
     line-height: 1.5em;
     margin-bottom: 10px;
+    text-align: justify;
+
 }
 
 div#form > form {
@@ -195,7 +173,6 @@ div#form > form {
     gap: 20px;
     column-gap: 20px;
     border-radius: 20px;
-
 
 }
 
@@ -224,4 +201,5 @@ footer {
     text-align: center;
     background-color: var(--colorsecondary);
     padding: 5px;
+
 }
