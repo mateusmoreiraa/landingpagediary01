@@ -23,36 +23,30 @@ body {
 }
 
 header {
+    height: 100px;
     border-bottom: 1px solid rgb(255, 255, 255) ;
     margin: auto;
-    background-color: var(--colorsecondary);
+    background-color: #000000;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
-header > div#topo {
-    height: 30px;
-    border-bottom: 1px solid var(--colorsecondary);
-    color: var(--colorsecondary);
-    background-color: black;
-    border-bottom: 1px solid rgb(255, 255, 255) ;
-}
-
-div#modern-times > h2 {
-    color: white;
-    text-shadow: 1px 1px 3px rgba(255, 255, 255, 0.274);
-    width: 80vw;
-    text-align: center;
-    margin: 20px auto;
-    font-family: 'Comfortaa';
-    font-size: 1.4em;
-    margin: 30px auto;
+div#modern-times {
+    background-color: var(--colortertiary);
+    width: 100vw;
+    border-top: 1px solid var(--colorsecondary) ;
+    border-bottom: 1px solid var(--colorsecondary) ;
 
 }
 
-div#modern-times > h2 > span#falconry {
+div#modern-times > h1 {
     font-family: 'Island Moments';
     font-size: 3.5em;
-    text-shadow: 2px 2px 9px rgba(0, 0, 0, 0.315);
-    color: black;
+    text-shadow:  2px 2px 7px rgb(0, 0, 0);
+    color: white;
+    text-align: center;
 }
 
 section#introduction {
