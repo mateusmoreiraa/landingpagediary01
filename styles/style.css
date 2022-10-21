@@ -18,14 +18,14 @@
 }
 
 body {
-    background-color: var(--colorprimary);
+    background-color: white;
 
 }
 
 header {
     border-bottom: 1px solid rgb(255, 255, 255) ;
     margin: auto;
-    background-color: #000000;
+    background-color: var(--colorsecondary);
 }
 
 header > h1 {
@@ -52,15 +52,19 @@ div#modern-times > h2 {
 div#modern-times > h2 > span#falconry {
     font-family: 'Island Moments';
     font-size: 3.5em;
-    text-shadow: 2px 2px 9px var(--colorsecondary);
-    color: white;
+    text-shadow: 2px 2px 9px rgba(0, 0, 0, 0.315);
+    color: black;
 }
 
 div#techniques-explanation{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    background: linear-gradient(var(--colorsecondary), var(--colorprimary), var(--colorsecondary));
+    background: linear-gradient(rgba(0, 0, 0, 0.486), rgba(0, 0, 0, 0.466)), url(../imgens/aguia.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 div#techniques {
@@ -76,6 +80,7 @@ div#techniques > p {
     width: 280px;
     margin: auto;
     text-shadow:  2px 2px 9px rgba(0, 0, 0, 0.479);
+    color: white;
 }
 
 div#techniques > div#imagemama {
@@ -113,7 +118,7 @@ div#techniques > div#imagemvoo {
 }
 
 div#explanation{
-    background-color: #000000;
+    background-color: var(--colorsecondary);
     height: 20vh;
     color: white;
     display: flex;
@@ -140,10 +145,13 @@ section#benefits-form {
 
 section#benefits-form > div#benefits {
     padding: 20px;    
-    background: linear-gradient(var(--colorsecondary), var(--colorprimary), var(--colorsecondary));
+    background: linear-gradient(rgba(0, 0, 0, 0.500), rgba(0, 0, 0, 0.500)), url(../imgens/coruja.jpg);
+    background-attachment: fixed;
+    background-size: cover;
     display: flex;
     flex-direction: column;
     align-items: center;
+    color: white;
 }
 
 div#benefits > p {
