@@ -116,7 +116,7 @@ section#about {
 
 div#others {
     padding: 20px;
-    background: linear-gradient(rgba(0, 0, 0, 0.700), rgba(0, 0, 0, 0.700)), url(../imgens/aguia.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.400), rgba(0, 0, 0, 0.400)), url(../imgens/aguia.jpg);
     background-position: center center;
     background-size: cover;
     display: flex;
