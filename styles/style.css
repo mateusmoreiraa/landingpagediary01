@@ -83,18 +83,18 @@ div#benefits > ul > li{
 }
 
 section#skills{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    background-color: var(--colortertiary);
-    box-shadow: inset 0px 2px 8px rgb(0, 0, 0);
     font-family: 'Comfortaa';
-
+    box-shadow: inset 0px 2px 8px rgb(0, 0, 0);
 }
 
 div#techniques {
+    padding: 20px;
+    background-color: var(--colortertiary);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: white;
     margin: auto;
-    margin-bottom: 20px;
 
 }
 
@@ -145,13 +145,14 @@ div#others > p {
 
 section#formulario {
     font-family: 'Comfortaa';
+    box-shadow: inset 0px 2px 8px rgb(0, 0, 0);
 
 }
 
 div#form {
     padding: 20px;
     background-color: var(--colortertiary);
-    border-top: 1px solid white;
+    border-top: 1px solid var(--colorsecondary);
 
 }
 
