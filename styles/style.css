@@ -95,6 +95,7 @@ div#techniques {
     justify-content: space-around;
     color: white;
     margin: auto;
+    box-shadow: inset 0px 0px 20px rgb(0, 0, 0);
 
 }
 
@@ -115,7 +116,7 @@ section#about {
 
 div#others {
     padding: 20px;
-    background: linear-gradient(rgba(0, 0, 0, 0.800), rgba(0, 0, 0, 0.800)), url(../imgens/aguia.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.700), rgba(0, 0, 0, 0.700)), url(../imgens/aguia.jpg);
     background-position: center center;
     background-size: cover;
     display: flex;
@@ -145,7 +146,6 @@ div#others > p {
 
 section#formulario {
     font-family: 'Comfortaa';
-    box-shadow: inset 0px 2px 8px rgb(0, 0, 0);
 
 }
 
@@ -153,6 +153,7 @@ div#form {
     padding: 20px;
     background-color: var(--colortertiary);
     border-top: 1px solid var(--colorsecondary);
+    box-shadow: inset 0px 0px 20px rgb(0, 0, 0);
 
 }
 
