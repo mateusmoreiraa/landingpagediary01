@@ -15,7 +15,7 @@
 
     }
 
-    div#benefits {
+        div#benefits {
         width: 35%;
         height: 40%;
         line-height: 2em;
@@ -24,11 +24,85 @@
 
     }
 
-    div#classroom {
+        div#classroom {
         width: 50%;
         height: 30%;
         align-self: center;
     }
+
+
+
+    section#skills > div#techniques {
+        padding: 20px;
+        background-color: var(--colortertiary);
+        display: flex;
+        flex-direction: column;
+        box-shadow: inset 0px 0px 20px rgb(0, 0, 0);
+        font-family: 'Comfortaa';
+    
+    }
+    
+        div.amansamento {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        align-content: center;
+        justify-content: flex-end;
+        column-gap: 30px;
+    }
+
+        div.amansamento > img {
+        display: inline;
+        width: 300px;
+        border-radius: 30px;
+    }
+
+        div.vertical {
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        align-content: center;
+        justify-content: flex-end;
+        column-gap: 30px;
+    }
+
+        div.vertical > img {
+        display: inline;
+        width: 300px;
+        border-radius: 30px;
+    }
+
+        div.punho {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        align-content: center;
+        justify-content: flex-end;
+        column-gap: 50px;
+    }
+    
+        div.punho > img {
+        display: inline;
+        width: 90%;
+        border-radius: 30px;
+    }
+
+        div.rapinantes {
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        align-content: center;
+        justify-content: flex-end;
+        column-gap: 50px;
+    }
+    
+        div.rapinantes > img {
+        display: inline;
+        width: 90%;
+        border-radius: 30px;
+    }
+
+
 
     section#about {
         height: 600px;
@@ -42,16 +116,32 @@
         align-content: center;
     }
 
-    section#about > div#others {
+        section#about > div#others {
 
     }
 
-    div#others > img {
+        div#others > img {
         margin: auto;
         width: 200px;
         height: 200px;
         display: block;
     }
+
+
+
+    section#content { 
+
+    }
+        ul.list > li {
+            display: inline;
+            float: left;
+            width: 45%;
+            height: 50px;
+            border-bottom: 1px solid black;
+            text-align: center;
+            font-size: .8em;
+
+         }
 
 }
 

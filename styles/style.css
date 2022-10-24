@@ -49,6 +49,8 @@ div#modern-times > h1 {
     text-align: center;
 }
 
+
+
 section#introduction {
     font-family: 'Comfortaa';
     padding: 20px;    
@@ -62,7 +64,6 @@ section#introduction {
     color: white;
     border-bottom: 1px solid var(--colorsecondary) ;
 }
-
 
 div#benefits, div#classroom, div#networking {
     width: 80vw;
@@ -98,6 +99,8 @@ div#classroom > ul > li{
     margin-bottom: 10px;
 }
 
+
+
 section#skills{
     font-family: 'Comfortaa';
     box-shadow: inset 0px 2px 8px rgb(0, 0, 0);
@@ -112,19 +115,34 @@ div#techniques {
     color: white;
     margin: auto;
     box-shadow: inset 0px 0px 20px rgb(0, 0, 0);
+    font-family: 'Comfortaa';
+    text-align: center;
 
 }
 
-div#techniques > p {
+div#techniques > div {
     text-align: center;
-    font-family: 'Comfortaa';
     padding: 30px;
     width: 280px;
     margin: auto;
     text-shadow:  2px 2px 7px rgb(0, 0, 0);
-    color: white;
 
 }
+
+div.amansamento > img {
+    display: none;
+}
+div.vertical > img {
+    display: none;
+}
+div.punho > img {
+    display: none;
+}
+div.rapinantes > img {
+    display: none;
+}
+
+
 
 section#about {
     font-family: 'Comfortaa';
@@ -140,14 +158,10 @@ section#about {
 
 }
 
-div#others {
-    
-
-}
-
 div#others > h2 {
     padding: 20px;
     margin: auto;
+    text-align: center;
 
 }
 
@@ -162,9 +176,49 @@ div#others > p {
 
 }
 
-div#others > img {
-    display: none;
+
+section#content{
+    font-family: 'Comfortaa';
+    box-shadow: inset 0px 2px 8px rgb(0, 0, 0);
 }
+
+div.modules {
+    padding: 20px;
+    background-color: var(--colortertiary);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    margin: auto;
+    box-shadow: inset 0px 0px 20px rgb(0, 0, 0);
+    font-family: 'Comfortaa';
+
+}
+
+div.modules > p {
+    line-height: 1.5em;
+    width: 80%;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+div.modules > h2 {
+    padding: 10px;
+    margin: auto;
+    text-align: center;
+
+}
+
+div.modules > ul {
+    list-style-position: inside;
+    line-height: 2.5em;
+    margin-bottom: 30px;
+    list-style-type: none;
+}
+
+
 
 section#formulario {
     font-family: 'Comfortaa';
@@ -173,8 +227,10 @@ section#formulario {
 
 div#form {
     padding: 20px;
-    background-color: var(--colortertiary);
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.507), rgba(0, 0, 0, 0.479)), url(../imgens/penas.jpg) no-repeat;
     border-top: 1px solid var(--colorsecondary);
+    background-size: cover;
+    background-position: center bottom;
     box-shadow: inset 0px 0px 20px rgb(0, 0, 0);
 
 }
@@ -219,6 +275,7 @@ input#submit {
     margin-bottom: 10px;
     border: none;
 }
+
 
 footer {
     text-align: center;
