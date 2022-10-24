@@ -51,9 +51,6 @@ div#modern-times > h1 {
 
 section#introduction {
     font-family: 'Comfortaa';
-}
-
-section#introduction > div#benefits {
     padding: 20px;    
     background: linear-gradient(rgba(0, 0, 0, 0.800), rgba(0, 0, 0, 0.800)), url(../imgens/coruja.jpg);
     background-position: center center;
@@ -61,25 +58,43 @@ section#introduction > div#benefits {
     display: flex;
     flex-direction: column;
     align-items: center;
+    align-content: center;
     color: white;
     border-bottom: 1px solid var(--colorsecondary) ;
 }
 
-div#benefits > p {
+
+div#benefits, div#classroom, div#networking {
     width: 80vw;
-    margin-top: 20px;
-    margin-bottom: 30px;
     line-height: 1.5em;
     text-align: justify;
     text-indent: 30px;
 
 }
 
-div#benefits > ul {
-    margin-bottom: 20px;
+div#benefits > p {
+    margin-bottom: 30px;
 }
 
-div#benefits > ul > li{
+div#classroom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    margin-bottom: 30px;
+    
+}
+
+div#classroom > p {
+    margin-bottom: 30px;
+}
+
+div#classroom > ul {
+    list-style-position: inside;
+
+}
+
+div#classroom > ul > li{
     margin-bottom: 10px;
 }
 
@@ -113,10 +128,6 @@ div#techniques > p {
 
 section#about {
     font-family: 'Comfortaa';
-
-}
-
-div#others {
     padding: 20px;
     background: linear-gradient(rgba(0, 0, 0, 0.400), rgba(0, 0, 0, 0.400)), url(../imgens/aguia.jpg);
     background-position: center center;
@@ -126,6 +137,11 @@ div#others {
     align-items: center;
     color: white;
     border-top: 1px solid var(--colorsecondary) ;
+
+}
+
+div#others {
+    
 
 }
 
@@ -144,6 +160,10 @@ div#others > p {
     text-align: justify;
     text-indent: 30px;
 
+}
+
+div#others > img {
+    display: none;
 }
 
 section#formulario {

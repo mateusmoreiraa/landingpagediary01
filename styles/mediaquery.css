@@ -1,0 +1,64 @@
+@charset "UTF-8";
+
+@media (min-width: 768px) {
+
+    section#introduction {
+        height: 500px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: center;
+        align-content: center;
+        row-gap: 150px;
+        column-gap: 40px;
+
+    }
+
+    div#benefits {
+        width: 35%;
+        height: 40%;
+        line-height: 2em;
+        align-self: center;
+
+
+    }
+
+    div#classroom {
+        width: 50%;
+        height: 30%;
+        align-self: center;
+    }
+
+    section#about {
+        height: 600px;
+        background-position: top center;
+        column-gap: 40px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: center;
+        align-content: center;
+    }
+
+    section#about > div#others {
+
+    }
+
+    div#others > img {
+        margin: auto;
+        width: 200px;
+        height: 200px;
+        display: block;
+    }
+
+}
+
+@media (min-width: 992px) {
+    
+}
+
+@media (min-width: 120px) {
+    
+}
