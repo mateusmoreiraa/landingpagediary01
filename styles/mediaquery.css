@@ -132,6 +132,10 @@
     section#content { 
 
     }
+        section#content > div.modules > h2 {
+            text-decoration: underline;
+        }
+
         ul.list > li {
             display: inline;
             float: left;
