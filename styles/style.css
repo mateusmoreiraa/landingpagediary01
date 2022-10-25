@@ -129,20 +129,9 @@ div#techniques > div {
 
 }
 
-div.amansamento > img {
+div.base_class > img {
     display: none;
 }
-div.vertical > img {
-    display: none;
-}
-div.punho > img {
-    display: none;
-}
-div.rapinantes > img {
-    display: none;
-}
-
-
 
 section#about {
     font-family: 'Comfortaa';
