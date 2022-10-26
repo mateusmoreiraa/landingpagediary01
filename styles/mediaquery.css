@@ -3,62 +3,60 @@
 @media (min-width: 768px) {
 
     section#introduction {
-        height: 500px;
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: space-evenly;
-        align-items: center;
-        align-content: center;
-        row-gap: 150px;
-        column-gap: 40px;
-
-    }
-
-    div#benefits {
-        width: 35%;
-        height: 40%;
-        line-height: 2em;
-        align-self: center;
-
-
-    }
-
-    div#classroom {
-        width: 50%;
-        height: 30%;
-        align-self: center;
-    }
-
-
-
-    section#skills>div#techniques {
-        padding: 20px;
-        background-color: var(--colortertiary);
+        height: 400px;
         display: flex;
         flex-direction: column;
-        box-shadow: inset 0px 0px 20px rgb(0, 0, 0);
-        font-family: 'Comfortaa';
-
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    article {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        column-gap: 60px;
+        align-items: center;
+        align-content: center;
+        margin-bottom: 30px;
     }
 
+    
+    div#benefits {
+        max-width: 700px;
+    
+    }
+    
+    div#classroom {
+        min-width: 300px;
+        
+    }
+    
+    div#classroom > p {
+        margin-bottom: 20px;
+    }
+
+
     div.base_class {
+        padding: 20px;
         display: flex;
-        min-width: 90%;
+        min-width: 80%;
         align-items: center;
         align-content: center;
         justify-content: flex-start;
-        column-gap: 30px;
+        column-gap: 23px;
     }
 
     div.base_class>img {
         display: inline;
-        width: 300px;
+        max-width: 400px;
+        min-width: 250px;
         border-radius: 30px;
     }
 
     div.base_class>p{
-        width: 200px;
+        min-width: 250px;
+        max-width: 600px;
     }
 
     div.amansamento {
@@ -76,10 +74,12 @@
     div.rapinantes {
         flex-direction: row-reverse;
     }
+    div.mais {
+        flex-direction: column;
+    }
 
     section#about {
         height: 600px;
-        background-position: top center;
         column-gap: 40px;
         display: flex;
         flex-direction: column;
@@ -89,34 +89,49 @@
         align-content: center;
     }
 
-    section#about>div#others {}
-
-    div#others>img {
-        margin: auto;
-        width: 200px;
-        height: 200px;
-        display: block;
+    div#others > p {
+        max-width: 700px;
     }
 
+    div.modules > p {
+        width: 700px;
+    }
 
-
-    section#content {}
-
-    section#content>div.modules>h2 {
+    div.modules > h2 {
         text-decoration: underline;
+        margin-bottom: 20px;
+    }
+
+    ul.list {
+        max-width: 750px; 
+        display: block;
     }
 
     ul.list>li {
         display: inline;
         float: left;
-        width: 45%;
+        min-width: 350px;
+        max-width: 750px;
         height: 50px;
-        border-bottom: 1px solid black;
+        border-bottom: 1px solid var(--colormediumligth);
         text-align: center;
-        font-size: .8em;
+        font-size: .9em;
+    }      
 
+
+    div#form > p {
+        max-width: 700px;
     }
-
+    
+    div#form > form {
+        max-width: 600px;
+        gap: 15px;
+    }
+    
+    form > input {
+        min-width: 300px;    
+    }
+    
 }
 
 @media (min-width: 992px) {}
