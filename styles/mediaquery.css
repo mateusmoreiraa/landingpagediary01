@@ -52,6 +52,7 @@
         max-width: 400px;
         min-width: 250px;
         border-radius: 30px;
+        box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.500);
     }
 
     div.base_class>p{
@@ -134,6 +135,8 @@
     
 }
 
-@media (min-width: 992px) {}
-
-@media (min-width: 120px) {}
+@media (min-width: 992px) {
+    div#others > p {
+    max-width: 800px;
+ }
+}
